@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Mail, Heart } from 'lucide-react';
+import { Linkedin, Mail, Heart, BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Footer: React.FC = () => {
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Stay Connected</h3>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Feel free to connect with me on LinkedIn or send me an email.
+              Feel free to connect with me on LinkedIn, check out my blog, or send me an email.
             </p>
           </motion.div>
           
@@ -39,6 +39,19 @@ const Footer: React.FC = () => {
             >
               <Linkedin size={20} />
             </motion.a>
+            
+            <motion.a
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              whileTap={{ scale: 0.9 }}
+              href="https://medium.com/@yadavpratibha"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
+              title="Medium Blog"
+            >
+              <BookOpen size={20} />
+            </motion.a>
+            
             <motion.a
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
