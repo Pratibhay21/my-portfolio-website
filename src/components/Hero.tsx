@@ -11,8 +11,19 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-         
-          
+          {/* Quote */}
+          <motion.blockquote
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="text-lg md:text-xl text-gray-700 italic mb-12 max-w-4xl mx-auto font-medium leading-relaxed"
+          >
+            <span className="text-4xl md:text-5xl text-indigo-600 font-serif leading-none">"</span>
+            <span className="relative">
+              In an AI-first world, the product isn't what you build — it's how confidently your users can trust what you build.
+            </span>
+            <span className="text-4xl md:text-5xl text-indigo-600 font-serif leading-none">"</span>
+          </motion.blockquote>
       
           <motion.img
             initial={{ scale: 0 }}
@@ -38,7 +49,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.6 }}
             className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto"
           >
-            Associate Product Manager | Reliance Jio | Solution Designing Expert
+            Product Manager | Conversational AI & Platform Products (3.4 yrs)
           </motion.p>
           
           <motion.p
@@ -47,9 +58,9 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.8 }}
             className="text-lg text-gray-700 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
-            Product Manager with 3 years of experience driving user-focused solutions through market research, 
-            data insights, and cross-functional execution. Skilled in roadmap strategy, backlog management, 
-            and product optimization, delivering tangible business impact.
+            Transitioning from digital product management to AI-driven systems.
+            <br /><br />
+            Experienced in roadmap definition, cross-functional delivery, and exploring LLM-based use cases (chat + voice) for automation and CX improvement.
           </motion.p>
 
           <motion.div

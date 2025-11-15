@@ -23,7 +23,14 @@ const Experience: React.FC = () => {
         "Launched AI-powered image verification, cutting manual compliance review efforts by 40% and boosting service accuracy by 35%",
         "Enhanced UX for internal & partner tools for Reliance ResQ, leading to a 75% increase in adoption rates and 35% faster task completion",
         "Built in-house platforms, eliminating reliance on third-party SaaS tools, reducing annual operational costs by 25%",
-        "Developed real-time analytics dashboards, enabling business teams to track 15+ KPIs and reducing manual reporting efforts by 60%"
+        "Developed real-time analytics dashboards, enabling business teams to track 15+ KPIs and reducing manual reporting efforts by 60%",
+        "Defined and executed the end-to-end product vision for an AI-powered conversational platform (chatbot + voicebot), aligning roadmap with business goals and customer needs",
+        "Identified key LLM use cases across support, sales, onboarding, and internal automation to drive platform adoption and revenue",
+        "Conducted competitive analysis (Yellow.ai, Gupshup, Cohere, OpenAI ecosystem) to position the product with clear differentiators",
+        "Led the design of prompt strategies, retrieval architecture (RAG), guardrails, and model-selection framework to optimize accuracy and latency",
+        "Designed behaviour-driven flows enabling richer conversations with context retention, sentiment detection, and disambiguation",
+        "Defined and shipped key platform capabilities including multi-channel orchestration, API-driven workflow automation, RAG-based knowledge management, advanced analytics dashboards, and a self-serve bot-building studio",
+        "Worked closely with engineering, data, design, QA, GTM, and customer success to drive releases across weekly/bi-weekly sprints"
       ]
     },
     {
@@ -32,10 +39,10 @@ const Experience: React.FC = () => {
       duration: "July 2022 - Aug 2022",
       location: "Navi Mumbai, India",
       description: [
-        "Conducted feature testing, technical documentation, and troubleshooting to ensure product quality and efficiency",
-        "Compiled detailed reports to support decision-making and track product progress",
-        "Collaborated with cross-functional teams to understand product requirements and technical specifications",
-        "Participated in agile development processes and sprint planning sessions"
+        "Supported early research on conversational AI platforms and LLM capabilities, contributing insights that shaped the initial product direction",
+        "Assisted in gathering requirements from internal teams and pilot customers, documenting pain points and potential chatbot/voicebot use cases",
+        "Helped design and test basic conversation flows, identifying UX gaps, flow breakages, and improvement opportunities",
+        "Coordinated with engineering and QA on small feature releases and bug validations, strengthening cross-functional execution"
       ]
     },
     {
