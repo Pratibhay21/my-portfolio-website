@@ -95,7 +95,7 @@ const Hero: React.FC = () => {
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                href="mailto:yadavpratibha21111999@gmail.com"
+                href="mailto:pratibhauyadav@gmail.com"
                 className="p-3 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
               >
                 <Mail size={20} />

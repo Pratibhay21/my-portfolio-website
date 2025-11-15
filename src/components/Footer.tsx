@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
             <motion.a
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
-              href="mailto:yadavpratibha21111999@gmail.com"
+              href="mailto:pratibhauyadav@gmail.com"
               className="p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
             >
               <Mail size={20} />
